@@ -1,0 +1,18 @@
+{
+  "name": "skrollr",
+  "version": "0.0.0",
+  "authors": [
+    "shgtkshruch <shgtk.shruch@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skrollr": "~0.6.29"
+  }
+}

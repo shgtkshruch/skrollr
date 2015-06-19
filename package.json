@@ -1,0 +1,25 @@
+{
+  "name": "skrollr",
+  "scripts": {
+    "publish": "./github-pages.sh"
+  },
+  "devDependencies": {
+    "browser-sync": "*",
+    "coffee-script": "*",
+    "del": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-changed": "*",
+    "gulp-coffee": "*",
+    "gulp-combine-media-queries": "*",
+    "gulp-csscomb": "*",
+    "gulp-jade": "*",
+    "gulp-load-plugins": "*",
+    "gulp-plumber": "*",
+    "gulp-prettify": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-useref": "*",
+    "wiredep": "*"
+  }
+}
+
