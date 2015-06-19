@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>skrollr</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="author" name="author">
+    <meta content="description" name="description">
+    <meta content="keywords" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="telephone=no" name="format-detection">
+    <link rel="stylesheet" href="styles/style.css" media="all">
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header__title">Parallax Scrolling with skrollr</h1>
+    </header>
+    <main>
+      <section id="slide-1" class="parallax">
+        <div data-anchor-target="#slide-1" data-center="background-position: 50% 0px" data-top-bottom="background-position: 50% -100px" class="parallax__bg">
+          <div data-anchor-target="#slide-1 h2" data-center="opacity: 1" data-top="opacity: 0" class="parallax__content">
+            <h2 class="parallax__heading">Fade out elements before<br>they leave viewport</h2>
+            <p class="parallax__body">Ipsum nisi molestias ea aspernatur aperiam rem dolorum? In iure nostrum dignissimos voluptate nobis! Sed ipsam voluptate itaque alias in explicabo dicta quaerat quod. Fuga praesentium qui repudiandae eligendi dignissimos.</p>
+          </div>
+        </div>
+      </section>
+      <section id="slide-2" class="parallax">
+        <div data-anchor-target="#slide-2" data-bottom-top="background-color: rgb(0,78,255)" data-top-bottom="background-color: rgb(0,0,0)" class="parallax__bg">
+          <div data-anchor-target="#slide-2 h2" data-bottom-top="opacity: 0" data-center="opacity: 1" data-top-bottom="opacity: 0" class="parallax__content">
+            <h2 class="parallax__heading">Fade me in and out</h2>
+            <p class="parallax__body">Sit recusandae omnis quam ipsam reiciendis. Tempora temporibus quia a perferendis atque officiis quam fugit autem hic! Ullam ea quam quibusdam consectetur omnis quam impedit necessitatibus quod recusandae perferendis? A.</p>
+          </div>
+        </div>
+      </section>
+      <section id="slide-3" class="parallax">
+        <div data-anchor-target="#slide-3" data-bottom-top="background-position: 50% 0px" data-top-bottom="background-position: 50% -100px" class="parallax__bg">
+          <div data-anchor-target="#slide-3" data-200-top="opacity: 0" data-center="opacity: 1;position: fixed;" class="parallax__content">
+            <h2 class="parallax__heading">Fixed element fading in and out</h2>
+            <p class="parallax__body">Dolor vero veritatis adipisci doloribus necessitatibus magnam suscipit? Numquam fugiat ratione quasi vel voluptas voluptates sunt sed inventore ratione debitis quos nulla! Labore culpa omnis laboriosam explicabo fugiat, eveniet! Iure.</p>
+          </div>
+        </div>
+      </section>
+      <section id="slide-4" class="parallax">
+        <div data-anchor-target="#slide-4" data-bottom-top="background-position: 50% -100px" data-center="background-position: 50% 0" class="parallax__bg"></div>
+        <div data-anchor-target="#slide-4" class="parallax__content">
+          <h2 class="parallax__heading">The End</h2>
+          <p class="parallax__body">Lorem quia non aliquam repellendus perferendis aut. Optio deleniti voluptatum doloremque a voluptatem vel? Nulla ad voluptates doloribus natus fugiat velit! Expedita vero voluptas quia vero nam. Fuga quis in.</p>
+        </div>
+      </section>
+    </main>
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+
+</html>
